@@ -111,8 +111,9 @@ variable "connector_key_pair" {
   type    = string
 }
 
+# Public key - Use your publick key
 variable "public-key" {
-  default = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDGCXSc3jLLafKtzSRwOq05fOiKOrVR1DWqk5TjLiyh+kcfW/PH277QMPgsARgMlmAGYYit8f3bJFkQPD7oEas8raLN27qGxgR6DYG7Ko9iCfqR4mmmURs5tVdI12RfunUTmCAa3nA9GT3jC99SwayNjtWkocQeJ3m3p2yrERSqRS2EWdcqI/E/8vv5B/kp0vtI78mPIdd+Lx5U2Vy18fsJwJ74EpYbvOPCG1vS1M1W7og+x4lY5/esM9T+ZLyyzZCDxns4AvJuXPMWAtLtP8CqA1zAGUGtBzmmV8JIFCrmZy3RXO+UBBj0pfwf+qqz9sOACatyxmN/SrDo/WeDeGE7 kentarokoba@KENTAROs-MacBook-Pro.local"
+  default = "ssh-rsa XXXX Use your own pblic key"
   type    = string
 }
 
