@@ -6,7 +6,7 @@ resource "zia_url_categories" "koba_category" {
   custom_category     = true
   type                = "URL_CATEGORY"
   urls = [
-    ".yahoo.co.jp",
+#    ".yahoo.co.jp",
      ".uefa.com",
      ".cnn.com",
   ]
